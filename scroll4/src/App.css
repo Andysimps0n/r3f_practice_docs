@@ -1,0 +1,32 @@
+body { 
+  margin: 0;
+}
+
+#canvas-container {
+
+  width: 100vw;
+  height: 100vh;
+  /* background: linear-gradient(to right,#054f93,#44e234); */
+
+}
+
+#outerMost-container {
+  width: 100vw;
+  height : 100vh;
+  margin: 0 auto;
+
+  /* background: rgba(0, 0, 0, 0.6); */
+  display: flex;
+  place-items: center;
+  place-content: center;
+
+}
+
+#inner-container {
+  width: 95%;
+  height: 90%;
+
+  /* background: rgba(150, 57, 57, 0.6); */
+  border: 1px white solid;
+
+}
